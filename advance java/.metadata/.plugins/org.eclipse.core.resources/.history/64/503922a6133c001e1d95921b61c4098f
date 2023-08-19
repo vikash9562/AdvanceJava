@@ -1,0 +1,89 @@
+package in.co.rays.ctl;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import in.co.rays.bean.UserBean;
+import in.co.rays.model.UserModel;
+
+@WebServlet("/FirstServlet")
+
+public class FirstServlet extends HttpServlet {
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		resp.setContentType("text/html");
+		
+		PrintWriter out = resp.getWriter();
+		
+		//out.println("<h1>Dynamic web project.......!!!!</h1>");
+		out.print("<td>FirstName</td>");
+		out.println("<td><input type='text' name='firstName'></td>");
+		
+		out.print("<td>lastName</td>");
+		out.println("<td><input type='text' name='lastName'></td>");
+		
+		out.print("<td>loginId</td>");
+		out.println("<td><input type='text' name='loginId'></td>");
+		
+		out.print("<td>password</td>");
+		out.println("<td><input type='text' name='password'></td>");
+		
+		out.print("<td>dob</td>");
+		out.println("<td><input type='text' name='dob'></td>");
+		
+		out.print("<td>address</td>");
+		out.println("<td><input type='text' name='address'></td>");
+		
+		out.close();
+		
+		
+		
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		String firstName = req.getParameter("firstName");
+		String lastName = req.getParameter("lastName");
+		String loginId = req.getParameter("loginId");
+		String password = req.getParameter("password");
+		String dob = req.getParameter("dob");
+		String address = req.getParameter("address");
+
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+		UserBean bean = new UserBean();
+		bean.setFist_name(firstName);
+		bean.setLast_name(lastName);
+		bean.setLogin_id(loginId);
+		bean.setPassword(password);
+		try {
+			bean.setDob(sdf.parse(dob));
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		bean.setAddress(address);
+
+		UserModel model = new UserModel();
+		try {
+			model.add(bean);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		resp.sendRedirect("UserRegistrtion"
+
+		}
+
+}

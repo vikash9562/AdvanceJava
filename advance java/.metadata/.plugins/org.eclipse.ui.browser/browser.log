@@ -1,0 +1,73 @@
+
+Aug 15, 2023 17:00:40.02 NEW SESSION
+Aug 15, 2023 17:00:40.02 [10140:13732:0815/170040.015:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 15, 2023 17:00:40.02 [10140:13732:0815/170040.016:ERROR:checkin_request.cc(243)] Check-in request got net error: -105
+Aug 15, 2023 17:00:41.37 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 15, 2023 17:01:06.31 [10140:13732:0815/170106.316:ERROR:checkin_request.cc(243)] Check-in request got net error: -105
+Aug 15, 2023 17:01:08.96 [10140:13732:0815/170108.960:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 15, 2023 17:01:55.27 [10140:13732:0815/170155.278:ERROR:checkin_request.cc(243)] Check-in request got net error: -105
+Aug 15, 2023 17:02:06.45 [10140:13732:0815/170206.450:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 15, 2023 17:03:27.37 [10140:13732:0815/170327.369:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 15, 2023 17:03:29.86 [10140:13732:0815/170329.864:ERROR:checkin_request.cc(243)] Check-in request got net error: -105
+
+Aug 16, 2023 10:37:03.10 NEW SESSION
+Aug 16, 2023 10:37:03.10 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Aug 17, 2023 13:17:45.57 NEW SESSION
+Aug 17, 2023 13:17:45.57 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 17, 2023 13:52:00.83 [11432:8724:0817/135200.836:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 17, 2023 13:52:02.84 [11432:8724:0817/135202.840:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:52:07.97 [11432:8724:0817/135207.977:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:52:14.87 [11432:8724:0817/135214.878:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:52:33.12 [11432:8724:0817/135233.121:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -103
+Aug 17, 2023 13:52:35.04 [11432:9940:0817/135235.045:ERROR:device_event_log_impl.cc(222)] [13:52:35.045] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 17, 2023 13:52:35.40 [11432:8724:0817/135235.402:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 17, 2023 13:52:52.83 [11432:8724:0817/135252.839:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:52:59.83 [11432:8724:0817/135259.837:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:53:08.20 [11432:8724:0817/135308.200:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:53:10.22 [11432:8724:0817/135310.221:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 17, 2023 13:53:23.10 [11432:8724:0817/135323.109:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:53:45.22 [11432:8724:0817/135345.222:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 17, 2023 13:53:48.53 [11432:8724:0817/135348.533:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 13:54:05.65 [11432:8724:0817/135405.656:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Aug 17, 2023 14:09:14.64 NEW SESSION
+Aug 17, 2023 14:09:14.64 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 17, 2023 14:53:30.39 [12160:9084:0817/145330.394:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 17, 2023 15:24:39.93 [12160:9084:0817/152439.930:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 15:24:45.61 [12160:9084:0817/152445.612:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 17, 2023 15:25:21.46 [12160:9084:0817/152521.463:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 17, 2023 15:25:40.94 [12160:9084:0817/152540.941:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Aug 18, 2023 13:03:30.79 NEW SESSION
+Aug 18, 2023 13:03:30.79 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 18, 2023 14:00:29.33 [6764:2276:0818/140029.333:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 18, 2023 14:00:50.97 [6764:2276:0818/140050.976:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Aug 18, 2023 14:00:55.70 [6764:1344:0818/140055.703:ERROR:device_event_log_impl.cc(222)] [14:00:55.702] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 18, 2023 14:00:58.45 [6764:2276:0818/140058.458:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 18, 2023 14:01:03.82 [6764:2276:0818/140103.825:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Aug 18, 2023 14:01:28.61 [6764:2276:0818/140128.618:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Aug 18, 2023 14:52:28.54 NEW SESSION
+Aug 18, 2023 14:52:28.54 [10776:5124:0818/145228.538:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+Aug 18, 2023 14:52:28.54 [10776:2748:0818/145228.539:ERROR:disk_cache.cc(205)] Unable to create cache
+Aug 18, 2023 14:52:28.55 [10776:2748:0818/145228.539:ERROR:gpu_disk_cache.cc(676)] Gpu Cache Creation failed: -2
+Aug 18, 2023 14:52:31.67 Opening in existing browser session.
+Aug 18, 2023 14:52:34.46 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Aug 18, 2023 15:02:16.19 NEW SESSION
+Aug 18, 2023 15:02:16.19 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 18, 2023 15:02:39.74 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 18, 2023 15:10:54.66 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 18, 2023 15:43:35.56 [5568:10768:0818/154335.566:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Aug 18, 2023 23:38:02.56 [5568:10768:0818/233802.561:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Aug 18, 2023 23:38:02.57 [5568:12108:0818/233802.569:ERROR:device_event_log_impl.cc(222)] [23:38:02.566] USB: usb_service_win.cc:72 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 23}) failed: Element not found. (0x490)
+Aug 18, 2023 23:38:02.57 [5568:12108:0818/233802.573:ERROR:device_event_log_impl.cc(222)] [23:38:02.573] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Aug 18, 2023 23:38:02.59 [5568:12108:0818/233802.593:ERROR:device_event_log_impl.cc(222)] [23:38:02.592] USB: usb_service_win.cc:72 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 23}) failed: Element not found. (0x490)
+Aug 18, 2023 23:38:02.59 [5568:12108:0818/233802.597:ERROR:device_event_log_impl.cc(222)] [23:38:02.596] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Aug 18, 2023 23:38:02.61 [5568:9296:0818/233802.615:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug 18, 2023 23:38:07.06 [5568:12108:0818/233807.064:ERROR:device_event_log_impl.cc(222)] [23:38:07.064] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 18, 2023 23:38:24.68 [5568:10768:0818/233824.682:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Aug 19, 2023 13:25:54.83 NEW SESSION
+Aug 19, 2023 13:25:54.83 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

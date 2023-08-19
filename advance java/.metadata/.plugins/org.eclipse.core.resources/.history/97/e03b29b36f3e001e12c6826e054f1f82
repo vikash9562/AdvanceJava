@@ -1,0 +1,27 @@
+<%@page import="java.util.List"%>
+<%@page import="java.util.Iterator"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+		<from action="">
+					<%@ include file="Header.jsp"  %>
+					
+					<% 
+					List List = (List) request.getAttribute("list");
+					
+					Iterator it = List.iterator();
+					
+					
+					
+					%>
+									
+				</from>
+
+</body>
+</html>
